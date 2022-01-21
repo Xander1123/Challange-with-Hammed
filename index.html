@@ -6,15 +6,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-
+        
         <title>Build a Product Landing Page</title>
     </head>
     <body>
         <header id="Header">
             <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="">
-            <nav id="nav-bar">
-               
-                <nav class="link">https://www.google.com/url?sa=i&url=https%3A%2F%2Flogo.com%2F&psig=AOvVaw0kqeb1bxprRAgUxlXBJbYE&ust=1642861424229000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNjlge-Fw_UCFQAAAAAdAAAAABAD</nav>
+            <nav id="nav-bar">               
+                <nav class="link">
+                    <button class="video"><a href="https://www.youtube.com/embed/f9ip1iSAptQ" id="video">Watch Video</a></button>
+                  <!-- <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/f9ip1iSAptQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--> 
+                </nav>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input
+                      name="email"
+                      id="email"
+                      type="email"
+                      placeholder="Enter your email address"
+                      required
+                    />
+                    <input id="submit" type="submit" value="Get Started" class="btn"/>
+                  </form>
+              
             </nav>
         </header>
         
